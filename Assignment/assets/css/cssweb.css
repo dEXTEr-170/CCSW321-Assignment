@@ -161,7 +161,22 @@ span {
     color: #aa1111;
   }
 
-  ul li{
+  ul li {
+    text-decoration: none;
+    font-size: 29px;
+    list-style: none;
+  }
+  
+  #contact-banner ul li {
+    
+      display: inline;
+      text-decoration: none;
+      font-size: 29px;
+      padding-left: 30px;
+      padding-right: 40px;
+  }
+
+  nav ul li{
     display: inline;
     text-decoration: none;
     font-size: 29px;
@@ -224,14 +239,15 @@ span {
 #welcome .container {
   background-color: #2f2e41;
   border-radius: 20px;
+
+  background-image: url(/assets/media/images/gif2.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 #about .container {
-  background-color: #2f2e41;
-  border-radius: 20px;
-}
-
-#certificates .container {
   background-color: #2f2e41;
   border-radius: 20px;
 }
