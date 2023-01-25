@@ -1,7 +1,7 @@
 body {
-    background-color: #212529;
     color: #f4f0e8;
     font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(41, 35, 33) 100%);
 }
 
 .text-dexter {
@@ -138,6 +138,19 @@ span {
     transform-origin: bottom left;
   }
 
+  .uj,.uj:visited {
+    color: #83ccea;
+    text-decoration: underline;
+    font-family: 'Cairo', sans-serif;
+    transition: 0.25s;
+
+  }
+
+  .uj:hover {
+    color: #ffffff;
+    transition: 0.25s;
+  }
+
   .avatar {
     width: 20%;
     height: auto;
@@ -157,9 +170,26 @@ span {
     width: 4%;
   }
 
-  .icons-red{
+  .icons-red, .icons-red:visited {
     color: #aa1111;
+    transition: 0.25s;
+    text-decoration: none;
+  
   }
+  
+  .icons-red:hover {
+    color: #ffffff;
+    transition: 0.25s;
+  }
+  
+  .icons-red:active {
+    color: #e0e0e0;
+  }
+  
+  .icons-red:focus {
+    color: #ffffff;
+  }
+  
 
   ul li {
     text-decoration: none;
@@ -204,12 +234,6 @@ span {
   color: #ffffff;
 }
 
-.uj {
-  color: #83ccea;
-  font-family: 'Cairo', sans-serif;
-  font-size: larger;
-}
-
 .progress-out {
   color: #222222;
 }
@@ -237,7 +261,7 @@ span {
 /*Sections Border*/
 
 #welcome .container {
-  background-color: #2f2e41;
+  background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(47, 46, 65) 100%);  
   border-radius: 20px;
 
   background-image: url(/assets/media/images/gif2.gif);
@@ -248,17 +272,17 @@ span {
 }
 
 #about .container {
-  background-color: #2f2e41;
+  background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(47, 46, 65) 100%);  
   border-radius: 20px;
 }
 
 #skills .container {
-  background-color: #2f2e41;
+  background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(47, 46, 65) 100%);  
   border-radius: 20px;
 }
 
 #work .container {
-  background-color: #2f2e41;
+  background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(47, 46, 65) 100%);  
   border-radius: 20px;
 }
 
